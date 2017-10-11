@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="sliders.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+            min-height: 100%;
+        }
+
+        footer,header {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+        .content{
+            height: 100%;
+        }
+        img {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header class="container-fluid text-center">
+    <p>Header</p>
+</header>
+
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-2 col-sm-push-10 text-left">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">Friends</a></li>
+                <li><a href="#section3">Family</a></li>
+                <li><a href="#section3">Photos</a></li>
+            </ul><br>
+        </div>
+        <div class="col-sm-10 col-md-pull-2" id="sliders">
+
+        </div>
+
+    </div>
+</div>
+
+<footer class="container-fluid text-center">
+    <p>Footer</p>
+</footer>
+
+</body>
+</html>
